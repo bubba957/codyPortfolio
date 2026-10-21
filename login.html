@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="img/logo.svg">
+    <link rel="stylesheet" href="styles/login.css">
+    <title>Cody's Portfolio | Log In</title>
+</head>
+<body class="loginPage">
+
+    <div class="loginContainer">
+        <div class="loginHeader">
+            <h1>Welcome Back</h1>
+            <p>Please enter your details to sign in</p>
+        </div>
+        <form>
+            <div class="formGroup">
+                <label for="username">Username or Email</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            </div>
+            <div class="formGroup">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <div class="formUtils">
+                <label class="rememberMe">
+                    <input type="checkbox" name="remember">Remember me
+                </label>
+            </div>
+
+            <a href="welcome.html" class="submitBtn">Log In</a>
+        </form>
+
+        <div class="loginFooter">
+            <p>Don't have an account? <a href="registration.html">Sign up</a></p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

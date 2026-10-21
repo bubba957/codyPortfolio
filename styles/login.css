@@ -1,0 +1,122 @@
+/* login.html, registration.html, welcome.html */
+.loginPage {
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.loginContainer {
+    background: #ffffff;
+    /* width: 100%; */
+    width: 400px;
+    padding: 40px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.loginHeader {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.loginHeader h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.loginHeader p {
+    font-size: 14px;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.formGroup input {
+    width: 100%;
+    margin-right: 30px;
+    padding: 12px 14px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.formGroup input:focus {
+    border-color: #0066cc;
+}
+
+.formUtils {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.rememberMe {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    color: #000;
+}
+
+.rememberMe input {
+    cursor: pointer;
+}
+
+.submitBtn {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    background: #c0bcbc;
+    color: #fff;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.submitBtn:hover {
+    color: #FFF;
+}
+
+.submitBtn a {
+  color: #FFF;
+}
+
+.submitBtnBig {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    background-color: #c0bcbc;
+    color: #ffffff;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    /* transition: background-color 0.2s ease; */
+}
+
+.submitBtnBig:hover {
+    color: #FFF;
+}
+
+.submitBtnBig a {
+  color: #FFF;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.loginFooter {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #666666;
+}
