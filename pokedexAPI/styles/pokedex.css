@@ -21,6 +21,20 @@ h1 {
     color: var(--accent); 
 }
 
+a:link, a:visited {
+  color: var(--card);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:link:active, a:visited:active {
+  color: #ff0000;
+}
+
 .search-bar {
   display: flex;
   gap: 8px;
