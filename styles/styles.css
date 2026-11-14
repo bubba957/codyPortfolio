@@ -52,7 +52,7 @@ a:link:active, a:visited:active {
 
 nav {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     border-radius: 25px;
     background-color: #ffc299;
     margin: 20px 0 50px 0;
