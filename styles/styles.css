@@ -180,6 +180,10 @@ table, th, td {
     margin: 10px 0 25px 0;
   }
 
+  footer{
+    display: none;
+  }
+
   #search {
     display: block;
     width: 90%;
