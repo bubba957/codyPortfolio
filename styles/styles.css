@@ -71,6 +71,16 @@ img {
   height: auto;
 }
 
+footer{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 10px 300px 0 300px;
+  padding-top: 40px;
+  border-top: 2px solid var(--text-color);
+  text-align: center;
+  align-items: center;
+}
+
 /* index.html */
 
 .slideshow-container {
